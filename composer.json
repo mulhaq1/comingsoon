@@ -1,0 +1,51 @@
+{
+  "name": "mulhaq1/comingsoonstart",
+  "type": "project",
+  "license": "MIT",
+  "description": "Initiate new Wordpress site with coming soon",
+  "homepage": "https://github.com/mulhaq1/comingsoon",
+  "authors": [
+    {
+      "name": "Muhammad Faraz-ul-Haq",
+      "email": "faraz.ulhaq@ibexglobal.com",
+      "homepage": "https://github.com/mulhaq1"
+    }
+  ],
+  "keywords": [
+    "mulhaq1", "wordpress", "stack", "composer", "comming soon", "wp"
+  ],
+  "config": {
+    "preferred-install": "dist"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type":"package",
+      "package": {
+        "name": "mulhaq1/comingsoon",
+        "version":"1.0",
+        "source": {
+          "url": "https://github.com/mulhaq1/comingsoon.git",
+          "type": "git",
+          "reference":"1.0"
+        }
+      }
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "php": ">=5.4"
+  },
+  "extra": {
+    "installer-paths": {
+      "/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+      "/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+    }
+  }
+}

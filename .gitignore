@@ -1,0 +1,11 @@
+demo/
+.htaccess
+*.mp4
+*.mp3
+wp-config.php
+.sass-cache/
+node_modules/
+*.sublime-workspace
+.git/
+vendor/
+*.lock

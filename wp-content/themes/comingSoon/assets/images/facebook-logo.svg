@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="26" viewBox="0 0 27 26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Ellipse" class="cls-1" d="M13.047,0A13,13,0,1,1,0,13,13.023,13.023,0,0,1,13.047,0Zm1.225,20.052H11.221V13H9.7V10.568h1.525V9.108c0-1.983.861-3.163,3.306-3.163h2.036V8.377H15.291c-0.952,0-1.015.34-1.015,0.974l0,1.217h2.306L16.307,13H14.272v7.053Z"/>
+</svg>
